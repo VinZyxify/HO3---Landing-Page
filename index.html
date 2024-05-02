@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViWear | Wear Your Imagination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navbarcontainer">
+            <a href="/" id="navbarlogo">ViWear</a>
+            <div class="navbartoggle" id="mobilemenu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbarmenu">
+                <li class="navbaritem">
+                    <a href="/" class="navbarlinks">Home</a></li>
+
+                <li class="navbaritem">
+                    <a href="/tech.html" class="navbarlinks">Tech</a></li>
+
+                <li class="navbaritem">
+                    <a href="/" class="navbarlinks">Products</a></li>\
+                
+                <li class="navbarbtn">
+                    <a href="/" class="button">SignUp</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="maincontainer">
+            <div class="maincontent">
+                <h1>Next Generation</h1>
+                <h2>Technology</h2>
+                <p>See What Make Us Differenct.
+                Wear Your Imagination
+                </p>
+                <button class="mainbtn"><a href="/">Get Started</a></button>
+            </div>
+
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="product-1.png" alt="product-1">
+                    </div>
+                    <div class="slide">
+                        <img src="product-2.png" alt="product-2">
+                    </div>
+                    <div class="slide">
+                        <img src="product-3.png" alt="product-3">
+                    </div>
+                </div>
+                <button class="prev-btn" onclick="prevSlide()">&#10094;</button>
+                <button class="next-btn" onclick="nextSlide()">&#10095;</button>
+            </div>
+            <div class="mainimgcontainer"><img src="images/dress1.svg" alt="pix" id="mainimg"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
